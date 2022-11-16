@@ -16,7 +16,7 @@ function Cart(props) {
       {cartItems}
       <div className={classes.total}>
         <span>Total amount</span>
-        <span>35.62</span>
+        <span>$35.62</span>
       </div>
       <div className={classes.actions}>
         <button onClick={props.onHideCart} className={classes["button--alt"]}>
